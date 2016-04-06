@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        "transform-class-properties",
+        "syntax-flow",
+        ["babel-root-import", {
+                                  "rootPathPrefix": "@"
+                                }]
+    ],
+    "presets": [ "es2015","react"]
+}
